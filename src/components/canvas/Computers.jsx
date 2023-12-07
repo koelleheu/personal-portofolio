@@ -3,18 +3,19 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
+import { HemisphereLight } from "three";
 
 const Computers = ({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
 
   return (
     <mesh>
-      <hemisphereLight intensity={0.15} groundColor='black' />
+      <hemisphereLight intensity={2} groundColor='black' />
       <spotLight
-        position={[-20, 50, 10]}
-        angle={0.12}
+        position={[10, 10, 10]}
+        angle={Math.PI / 9}
         penumbra={1}
-        intensity={1}
+        intensity={1000}
         castShadow
         shadow-mapSize={1024}
       />
