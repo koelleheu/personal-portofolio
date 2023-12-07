@@ -7,10 +7,6 @@ import { EarthCanvas } from "./canvas"
 import { SectionWrapper } from "../hoc"
 import { slideIn } from "../utils/motion"
 
-//
-//template_yb8zawi
-//
-
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -61,7 +57,7 @@ const Contact = () => {
   }
 
   return (
-    <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
+    <div className="xl:mt-12">
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
@@ -92,7 +88,7 @@ const Contact = () => {
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your email address?"
+              placeholder="What's your address?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -118,12 +114,12 @@ const Contact = () => {
         </form>
       </motion.div>
 
-      <motion.div
+      {/* <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
-        className="xl-flex-1 xl:h-auto md:h-[550px] h-[350px]"
+        className="xl-flex-1 xl:h-auto md:h-[550px] h-[350px] flex flex-start"
       >
         <EarthCanvas />
-      </motion.div>
+      </motion.div> */}
     </div>
   )
 }
