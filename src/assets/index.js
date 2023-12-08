@@ -34,6 +34,8 @@ import elhurr from "./company/elhurr.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import portofolio from "./portofolio.png"
+import binarcare from "./binarcare.png"
 
 export {
   logo,
@@ -69,4 +71,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  portofolio,
+  binarcare,
 };

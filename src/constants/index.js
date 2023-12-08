@@ -8,10 +8,8 @@ import {
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
-    mongodb,
     git,
     figma,
     bootstrap5,
@@ -19,10 +17,9 @@ import {
     elhurr,
     mahle,
     flink,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
+    portofolio,
+    binarcare,
   } from "../assets";
 
   export const navLinks = [
@@ -181,16 +178,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Personal Portofolio",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A dynamic personal portfolio website utilizing React for seamless functionality, Tailwind for sleek and responsive design, and Three.js to integrate captivating animations.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "threejs",
           color: "green-text-gradient",
         },
         {
@@ -198,51 +195,51 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: portofolio,
+      source_code_link: "https://github.com/koelleheu/personal-portofolio",
     },
     {
-      name: "Job IT",
+      name: "Doctor Appointment",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A web-based platform empowering users to easily locate nearby doctors and schedule appointments with a streamlined booking system.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "express",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: binarcare,
+      source_code_link: "https://gitlab.com/binar-klp1-fsw36/frontend-binarcare-platinum/",
     },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
+    // {
+    //   name: "Trip Guide",
+    //   description:
+    //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    //   tags: [
+    //     {
+    //       name: "nextjs",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "supabase",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "css",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: tripguide,
+    //   source_code_link: "https://github.com/",
+    // },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
