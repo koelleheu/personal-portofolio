@@ -15,16 +15,15 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    elhurr,
+    mahle,
+    flink,
     carrent,
     jobit,
     tripguide,
     threejs,
   } from "../assets";
-  
+
   export const navLinks = [
     {
       id: "about",
@@ -42,19 +41,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Research & Development",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "3D Models",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Frontend",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Backend",
       icon: creator,
     },
   ];
@@ -116,55 +115,42 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "R&D Engineer",
+      company_name: "MAHLE Behr GmbH & Co. KG - Germany",
+      icon: mahle,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "September 2020 - August 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "CAD design and validation of products component,  ensuring compliance with specifications and regulations.",
+        "Collaborate with cross-functional teams to streamline production processes and optimize product design for efficieny and performance.",
+        "Plan and execute validations tests, analyzing result to identify design improvements and enhance overall product quality.",
+        "Present test findings and data-driven recommendations to project leaders for informed decision-making.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Inventory Manager",
+      company_name: "FLINK GmbH - Germany",
+      icon: flink,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "September 2021 - February 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Establish and mantain accurate inventory records, which enables efficient management of stock levels.",
+        "Conduct daily checks to ensure product freshness, minimizing losses from spoilage or theft.",
+        "Monitor inventory inventory levels and indetify area of overstock and understock, resulting in better inventory management.",
+        "Maintain regular communication with suppliers to ensure timely replenishment and quality control, optimizing inventory levels and product availability.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Board Member",
+      company_name: "Yayasan Pendidikan Islam El-Hurriyah",
+      icon: elhurr,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "March 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Develop and execute long-term strategic plans aligned with the school's mission and goals.",
+        "Contribute to financial decision-making, budgeting, and resource allocation to support the school's growth while ensuring fiscal responsibility and sustainability.",
+        "Actively engaged with the school community and parents to foster a positive and inclusive environment, addressing concerns and promoting transparency.",
+        "Support initiatives to enhance educational quality, curriculum development, and enrichment programs for students' holistic growth.",
       ],
     },
   ];
