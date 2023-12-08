@@ -14,7 +14,8 @@ import {
     mongodb,
     git,
     figma,
-    docker,
+    bootstrap5,
+    postgre,
     elhurr,
     mahle,
     flink,
@@ -80,8 +81,8 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Bootstrap 5",
+      icon: bootstrap5,
     },
     {
       name: "Tailwind CSS",
@@ -92,8 +93,8 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "PostgreSQL",
+      icon: postgre,
     },
     {
       name: "Three JS",
@@ -106,10 +107,6 @@ import {
     {
       name: "figma",
       icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
   
