@@ -20,6 +20,8 @@ import {
     threejs,
     portofolio,
     binarcare,
+    binar,
+    binarnews,
   } from "../assets";
 
   export const navLinks = [
@@ -147,6 +149,19 @@ import {
         "Support initiatives to enhance educational quality, curriculum development, and enrichment programs for students' holistic growth.",
       ],
     },
+    {
+      title: "Front-End Engineering Intern",
+      company_name: "Binar Academy",
+      icon: binar,
+      iconBg: "#E6DEDD",
+      date: "January 2024 - Present",
+      points: [
+        "Engaging with the cutting-edge world of web development using Ract.js and Next.js at Binar Academy, a leading EdTech company.",
+        "Actively contributing to the refinement and development of user interfaces for web applications using advanced technologies.",
+        "Collaborating with a dynamic team on innovative projects within the Product Design Engineering branch, shaping the future of digital education.",
+        "Gaining hands-on experience in the latest front-end technologies for impactful contributions to the tech and education convergence.",
+      ],
+    },
   ];
   
   const testimonials = [
@@ -219,27 +234,27 @@ import {
       image: binarcare,
       source_code_link: "https://gitlab.com/binar-klp1-fsw36/frontend-binarcare-platinum/",
     },
-    // {
-    //   name: "Trip Guide",
-    //   description:
-    //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    //   tags: [
-    //     {
-    //       name: "nextjs",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "supabase",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "css",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: tripguide,
-    //   source_code_link: "https://github.com/",
-    // },
+    {
+      name: "News App",
+      description:
+        "A simple news page application built using Next.js which allows users to browse and filter news articles based on keywords and dates. Clicking on a news item opens a modal with detailed information.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TypeScript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "TailwindCSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: binarnews,
+      source_code_link: "https://gitlab.com/fahmihidayat/news-app",
+    },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
